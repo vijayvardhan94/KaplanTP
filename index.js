@@ -113,6 +113,6 @@ app.use(express.static(path.join(__dirname, 'public')))
 //pk_51c0745db50c45ecb550deed2b8fb62d
 
 
-app.listen(PORT, () =>{
+app.listen(process.env.PORT, () =>{
     console.log(`server up and running at ${PORT}`);
 })
