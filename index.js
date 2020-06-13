@@ -39,7 +39,7 @@ function callApi2(finishedAPI2, ticker2){
 //third api implementation 
 
 function callApi3(finishedAPI3){
-    request('https://sv443.net/jokeapi/v2/joke/any', {json: true}, (err,res,body) =>{
+    request('https://sv443.net/jokeapi/v2/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist', {json: true}, (err,res,body) =>{
         if (err) {return console.log(err)};
         if(res.statusCode === 200)
         finishedAPI3(body);
@@ -56,8 +56,8 @@ app.get('/', function (req, res){
     callApi(function(doneAPI){
         res.render('home',{
             stock: doneAPI
-        });
-    });
+        })
+    }, "fb")
    
 });
 
