@@ -25,5 +25,5 @@ The application inlcudes three public APIs - IEX Cloud, Open weather API and a J
 Current Thinking - This application can be used as a place to test various APIs to see what kind of data they return or to just see how they work. 
 
 ## Hosted URL
-Can also be accessed at [kaplancodingtest.herokuapp.com/](kaplancodingtest.herokuapp.com/)
+Can also be accessed at [http://kaplancodingtest.herokuapp.com/](http://kaplancodingtest.herokuapp.com/)
 
