@@ -23,3 +23,7 @@ Open [http://localhost:5000](http://localhost:5000) and play with it.
 The application inlcudes three public APIs - IEX Cloud, Open weather API and a Jokes API, all accessible in one place. It was built using Node, Handlebars, and bootstrap.
 
 Current Thinking - This application can be used as a place to test various APIs to see what kind of data they return or to just see how they work. 
+
+## Hosted URL
+Can also be accessed at [kaplancodingtest.herokuapp.com/](kaplancodingtest.herokuapp.com/)
+
